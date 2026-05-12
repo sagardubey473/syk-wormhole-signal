@@ -112,6 +112,37 @@ coupling structure---it should degrade as chaos is destroyed. We find
 that it does not: the ensemble-averaged signal is invariant under
 sparsification, controlled entirely by the inter-system coupling $\mu$.
 
+This result has consequences on three fronts. First, it constrains the
+interpretation of quantum gravity simulation experiments: if the
+transmission signal is insensitive to whether the system is chaotic or
+integrable, it cannot by itself constitute evidence for holographic
+dynamics. The signal observed in the Google experiment~\cite{Jafferis:2022uhu}
+is consistent with our non-chaotic sparse systems just as well as with a
+holographic wormhole, and future experiments will need to supplement it
+with independent chaos diagnostics---such as level spacing statistics or
+out-of-time-order correlators---to substantiate gravitational claims.
+Second, the invariance has an immediate practical payoff: since 98\% of the
+Hamiltonian's coupling terms can be discarded without affecting the signal,
+the quantum gate count per Trotter step drops by a factor of ${\sim}50$
+at $N=10$, with the reduction scaling quartically to ${\sim}200\times$ at
+$N=20$ and beyond $1{,}000\times$ at $N=30$. This brings larger traversable
+wormhole simulations---currently far beyond the reach of near-term quantum
+hardware in their dense form---within experimental feasibility.
+Third, together with the results of Schuster et
+al.~\cite{Schuster:2021uvg}, our findings establish that the transmission
+signal is substantially more universal than its gravitational
+interpretation suggests, operating in systems that are neither holographic
+nor chaotic.
+
+The remainder of this paper is organized as follows.
+Section~\ref{sec:methods} defines the model, the transmission signal, and
+the chaos and noise diagnostics. Section~\ref{sec:results} presents the
+numerical evidence for signal-chaos decoupling, the $\mu$-control
+mechanism, noise-sparsity factorization, and disorder fluctuations.
+Section~\ref{sec:discussion} discusses the structural explanation, the
+connection to peaked-size teleportation, gate complexity, and open
+questions. Section~\ref{sec:conclusion} summarizes the findings.
+
 %=============================================================================
 \section{Model and Methods}
 \label{sec:methods}
